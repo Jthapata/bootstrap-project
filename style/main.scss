@@ -6,3 +6,14 @@ $purple: #8b37ff;
     border: none;
     border-radius: 25px;
 }
+.curly {
+    color: $purple;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar {
+    padding: .5rem 2rem;
+}
