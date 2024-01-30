@@ -1,4 +1,5 @@
 $purple: #8b37ff;
+$off-white: rgb(240, 240, 240);
 
 .btn-primary {
     background-color: $purple;
@@ -13,7 +14,16 @@ $purple: #8b37ff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    background-image: url("/hero.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
 }
 .navbar {
     padding: .5rem 2rem;
+    background-color: $off-white;
 }

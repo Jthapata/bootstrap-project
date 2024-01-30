@@ -13,8 +13,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  background-image: url("/hero.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 
 .navbar {
   padding: 0.5rem 2rem;
+  background-color: rgb(240, 240, 240);
 }/*# sourceMappingURL=main.css.map */
