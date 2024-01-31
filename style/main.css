@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
 .btn-primary {
   background-color: #8b37ff;
   padding: 0.5rem 2rem;
@@ -10,12 +14,10 @@
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  background-color: grey;
   background-image: url("/hero.jpeg");
-  height: 100%;
+  background-blend-mode: darken;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +25,27 @@
   color: white;
 }
 
+.display-1 {
+  font-weight: bolder;
+}
+
+.display-5 {
+  font-weight: bold;
+}
+
+.row {
+  width: 70%;
+}
+
+.center-item {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
 .navbar {
-  padding: 0.5rem 2rem;
-  background-color: rgb(240, 240, 240);
+  height: 10vh;
+  padding: 0.5rem 4rem;
+}
+.navbar .nav-link {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
